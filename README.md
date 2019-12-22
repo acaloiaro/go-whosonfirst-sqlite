@@ -47,7 +47,7 @@ _If you're looking for all the tables related to Who's On First documents they'v
 
 ## Custom tables
 
-Sure. You just need to write a per-table package that implements the `Table` interface, described below. For examples, consult the `tables` directories in the [go-whosonfirst-sqlite-features](https://github.com/acaloiaro/go-whosonfirst-sqlite-features) or [go-whosonfirst-sqlite-brands](https://github.com/whosonfirst/go-whosonfirst-sqlite-brands) packages.
+Sure. You just need to write a per-table package that implements the `Table` interface, described below. For examples, consult the `tables` directories in the [go-whosonfirst-sqlite-features](https://github.com/acaloiaro/go-whosonfirst-sqlite-features) or [go-whosonfirst-sqlite-brands](https://github.com/acaloiaro/go-whosonfirst-sqlite-brands) packages.
 
 ## DSN strings
 
