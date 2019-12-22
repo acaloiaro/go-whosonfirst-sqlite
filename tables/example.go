@@ -3,8 +3,8 @@ package tables
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/whosonfirst/go-whosonfirst-sqlite"
-	"github.com/whosonfirst/go-whosonfirst-sqlite/utils"
+	"github.com/acaloiaro/go-whosonfirst-sqlite"
+	"github.com/acaloiaro/go-whosonfirst-sqlite/utils"
 )
 
 type ExampleTable struct {

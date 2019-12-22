@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/whosonfirst/go-whosonfirst-sqlite"
+	"github.com/acaloiaro/go-whosonfirst-sqlite"
 	_ "log"
 	"os"
 	"regexp"
@@ -19,7 +19,7 @@ func HasTable(db sqlite.Database, table string) (bool, error) {
 
 	// you might be thinking it would be a good idea to cache this lookup
 	// I know I did... and I was wrong (20180713/thisisaaronland)
-	// https://github.com/whosonfirst/go-whosonfirst-sqlite/issues/11
+	// https://github.com/acaloiaro/go-whosonfirst-sqlite/issues/11
 
 	dsn := db.DSN()
 

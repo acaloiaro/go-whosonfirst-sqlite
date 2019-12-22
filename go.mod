@@ -1,4 +1,4 @@
-module github.com/whosonfirst/go-whosonfirst-sqlite
+module github.com/acaloiaro/go-whosonfirst-sqlite
 
 go 1.13
 

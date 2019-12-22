@@ -19,8 +19,8 @@ All of this package's dependencies are bundled with the code in the `vendor` dir
 ```
 import (
 	"github.com/whosonfirst/go-whosonfirst-geojson-v2/feature"
-	"github.com/whosonfirst/go-whosonfirst-sqlite/database"
-	"github.com/whosonfirst/go-whosonfirst-sqlite-features/tables"
+	"github.com/acaloiaro/go-whosonfirst-sqlite/database"
+	"github.com/acaloiaro/go-whosonfirst-sqlite-features/tables"
 )
 
 func main (){
@@ -43,11 +43,11 @@ _Error handling has been removed for the sake of brevity._
 
 ## Tables
 
-_If you're looking for all the tables related to Who's On First documents they've been moved in to the [go-whosonfirst-sqlite-features](https://github.com/whosonfirst/go-whosonfirst-sqlite-features) package._
+_If you're looking for all the tables related to Who's On First documents they've been moved in to the [go-whosonfirst-sqlite-features](https://github.com/acaloiaro/go-whosonfirst-sqlite-features) package._
 
 ## Custom tables
 
-Sure. You just need to write a per-table package that implements the `Table` interface, described below. For examples, consult the `tables` directories in the [go-whosonfirst-sqlite-features](https://github.com/whosonfirst/go-whosonfirst-sqlite-features) or [go-whosonfirst-sqlite-brands](https://github.com/whosonfirst/go-whosonfirst-sqlite-brands) packages.
+Sure. You just need to write a per-table package that implements the `Table` interface, described below. For examples, consult the `tables` directories in the [go-whosonfirst-sqlite-features](https://github.com/acaloiaro/go-whosonfirst-sqlite-features) or [go-whosonfirst-sqlite-brands](https://github.com/whosonfirst/go-whosonfirst-sqlite-brands) packages.
 
 ## DSN strings
 
@@ -102,10 +102,10 @@ func (t *BrandsTable) IndexBrand(db sqlite.Database, b brands.Brand) error {
 
 If you look around the `whosonfirst` organization you'll notice there are a bunch of `go-whosonfirst-sqlite-*` packages. Specifically:
 
-* https://github.com/whosonfirst/go-whosonfirst-sqlite
-* https://github.com/whosonfirst/go-whosonfirst-sqlite-index
-* https://github.com/whosonfirst/go-whosonfirst-sqlite-features
-* https://github.com/whosonfirst/go-whosonfirst-sqlite-features-index
+* https://github.com/acaloiaro/go-whosonfirst-sqlite
+* https://github.com/acaloiaro/go-whosonfirst-sqlite-index
+* https://github.com/acaloiaro/go-whosonfirst-sqlite-features
+* https://github.com/acaloiaro/go-whosonfirst-sqlite-features-index
 
 The first two are meant to be generic and broadly applicable to any SQLite database. The last two are specific to Who's On First documents.
 
